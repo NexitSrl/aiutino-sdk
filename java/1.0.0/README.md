@@ -1,4 +1,4 @@
-# AIutino-SDK for JAVA - 1.0.1 - latest
+# AIutino-SDK for JAVA - 1.0.0
 
 This SDK is written in Java to allow easy integration of the AIutino System with java solutions.
 
@@ -233,7 +233,7 @@ After saving the changes the workflow persists the settings an all the future pr
 ### Data management
 
 Dependind on the quantity of user data and the user workflows and document's organization into activities, the need to clean up the data may arise.
-The AIutino SDK offers functions to delete Documents and/or Activities. The Workflows are structural elements of the environment and cannot be deleted by the user.
+The AIutino SDK offers functions to delete Documents. The Workflows are structural elements of the environment and cannot be deleted by the user.
 
 #### Delete a document
 
@@ -244,11 +244,3 @@ A document can be deleted from the Activity it resides in. The operation removes
     activity.deleteDocument(document);
 
 If no exception are rised the operation is considered succesfully done.
-
-#### Delete an activity
-
-Only an empry Activity can be deleted. An activity can be deleted from the Workflow it resides in. The operation removes the empty Activity and cannot be undone.
-
-    Workflow workflow = session.getWorklfow("eac1e93c-775c-4edd-960a-167b4ca7a13e");
-    Activity activity= workflow.getActivity("b729e7b4-08da-49c0-8b34-264912016382");
-    workflow.deleteActivity(activity);
