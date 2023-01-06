@@ -1,4 +1,4 @@
-# AIutino-SDK for JAVA - 1.0.2 - latest
+# AIutino-SDK-Java 1.0.2 - latest
 
 Software Development Kit for AIutino integrations
 
@@ -6,7 +6,7 @@ This is an AIutino API client library to allow easy integration of AIutino tooks
 
 This SDK is written in Java to allow easy integration of the AIutino System with java solutions.
 
-Since version 1.0.2 the library requires at least **Java 1.8 or higher**
+Since version 1.0.2 the library requires at least **Java 11 or higher**
 
 The *AIutino System* makes use of some elements through which it allows you to manage documents. These elements are the **Session**, **Workflows**, **Activities** and **Documents** and are organized in a tree.
 
