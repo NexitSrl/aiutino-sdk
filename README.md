@@ -7,6 +7,13 @@ The SDK is provided for various languages and allows easy integration of cusomer
 
 ## AIutino SDK for Java
 
-The AIutino SDK is build under Java 11 LTS and is distributed in .jar format to be easy to import into any IDE project.
-Currently it requires Java 11 or higher version.
+The AIutino SDK is build under Java 8 and is distributed in .jar format to be easy to import into any IDE project.
+Currently it requires **Java 8** or higher version.
 
+## AIutino SDK for Python
+
+*Coming soon*
+
+## AIutino SDK for .NET
+
+*Coming soon*

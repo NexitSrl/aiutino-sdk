@@ -1,4 +1,4 @@
-# AIutino-SDK-Java 1.0.3 - latest
+# AIutino-SDK-Java 1.0.3
 
 Software Development Kit for AIutino integrations
 
