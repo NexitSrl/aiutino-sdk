@@ -1,4 +1,3 @@
-Latest version
 # AIutino-SDK-.net 1.1.0
 
 Software Development Kit for AIutino integrations
