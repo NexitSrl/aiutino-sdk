@@ -107,7 +107,7 @@ To send a document you have to *prepare* the document boxing it into an **Upload
 An *UploadingDocument* needs 
 - a file name (the simple name of the file like "test.pdf", not the file's path)
 - a file content in a byte array
-- a document type that is one of the values in the *com.nexitsrl.aiutino.apiclient.DocumentType* enumeration (PDF,TXT,JSON)
+- a document type that is one of the values in the *com.nexitsrl.aiutino.apiclient.DocumentType* enumeration (PDF, TXT, JSON, AUDIO, IMAGE, VIDEO, EXCEL, WORD, MAIL, ARCHIVE, XML)
 
 Sample
 
@@ -189,7 +189,7 @@ When a document is in the **CLOSED** state you can obtain the process result inv
     IDocument document = activity.getDocument("c7e3d6f4-ad56-42f2-bcd5-f217a24089ee");
     IDownloadDocument result = document.getResult();
 
-The content type of the result can be read using the Document.getResultType() method that returns a **DocumentType** value. The *DocumentType* object is an enumeration that can assume the values PDF, JSON or TXT.
+The content type of the result can be read using the Document.getResultType() method that returns a **DocumentType** value. The *DocumentType* object is an enumeration that can assume the values PDF, JSON, TXT, AUDIO, IMAGE, VIDEO, EXCEL, WORD, MAIL, ARCHIVE or XML.
 
 The **IDownloadDocument** interface, allows to access the following properties:
 
